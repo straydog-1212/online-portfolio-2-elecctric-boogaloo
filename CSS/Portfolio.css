@@ -1,6 +1,6 @@
-.Background{
-    background-color: rgb(14, 86, 230);
-    background-image: url('C:\Users\leulz\Desktop\CART DIgital Portfolio\CART-Digital-Portfolio\images\white-gold-background-vector-1013338.jpg');
+body{
+    background-color: rgb(159, 173, 201);
+    background-image: url('images\white-gold-background-vector-1013338.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -48,4 +48,37 @@ h3::first-letter{
     text-decoration: none;
     font-family: 'galada';
     
+}
+.a {
+  text-align:center
+}
+.b {
+  text-align: left;
+}
+
+.c {
+  text-align: right;
+} 
+
+.d {
+  text-align: justify;
+} 
+.centerImage{
+  width: 100%;
+}
+.centerImage2{
+  width: 60%
+}
+a{
+  padding:1rem, 1.5em;
+  text-decoration: none;
+  font-size:24px ;
+  display: inline-block;
+  color:rgb(255, 72, 0);
+}
+
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color:purple;
 }
