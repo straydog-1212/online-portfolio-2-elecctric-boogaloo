@@ -1,0 +1,51 @@
+.Background{
+    background-color: rgb(14, 86, 230);
+    background-image: url('C:\Users\leulz\Desktop\CART DIgital Portfolio\CART-Digital-Portfolio\images\white-gold-background-vector-1013338.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+  .nav{
+    color:rgb(255, 94, 0);
+    border-style: solid;
+    text-align: justify;
+  }
+  .wrapper {
+    background-color: rgba(255,255,255,0.8);
+    max-width: 1280px;
+    margin: 0 auto;
+    padding:25px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.7 )
+  
+  }
+h1{
+    text-align: center;
+    font-family: "fantasy";
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: #fade41;
+    color:hsla(46, 87%, 64%, 0.9);
+}
+h2{
+    text-align-last: center;
+    text-decoration:underline;
+    text-decoration-color: gold;
+    
+}
+
+h3{
+    text-align:center;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: h
+
+}
+h3::first-letter{
+    font-size: 200%;
+    color:groove rgb(212,175,55);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'galada';
+    
+}
