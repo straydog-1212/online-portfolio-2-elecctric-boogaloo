@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     }
-
+  
   .nav{
     color:rgb(255, 94, 0);
     border-style: solid;
@@ -19,66 +19,66 @@ body{
     box-shadow: 0 3px 5px rgba(0,0,0,0.7 )
   
   }
-h1{
+  h1{
     text-align: center;
     font-family: "fantasy";
     font-size: 50px;
     text-decoration: underline;
     text-decoration-color: #fade41;
     color:hsla(46, 87%, 64%, 0.9);
-}
-h2{
+  }
+  h2{
     text-align-last: center;
     text-decoration:underline;
     text-decoration-color: gold;
     
-}
-
-h3{
+  }
+  
+  h3{
     text-align:center;
     font-size: 25px;
     text-decoration: underline;
     text-decoration-color: h
-
-}
-h3::first-letter{
+  
+  }
+  h3::first-letter{
     font-size: 200%;
     color:groove rgb(212,175,55);
     font-weight: bold;
     text-decoration: none;
     font-family: 'galada';
     
-}
-.a {
+  }
+  .a {
   text-align:center
-}
-.b {
+  }
+  .b {
   text-align: left;
-}
-
-.c {
+  }
+  
+  .c {
   text-align: right;
-} 
-
-.d {
+  } 
+  
+  .d {
   text-align: justify;
-} 
-.centerImage{
+  } 
+  .centerImage{
   width: 100%;
-}
-.centerImage2{
+  }
+  .centerImage2{
   width: 60%
-}
-a{
+  }
+  a{
   padding:1rem, 1.5em;
   text-decoration: none;
   font-size:24px ;
   display: inline-block;
   color:rgb(255, 72, 0);
-}
-
-a:hover{
+  }
+  
+  a:hover{
   text-decoration: underline;
   cursor: pointer;
   color:purple;
-}
+  }
