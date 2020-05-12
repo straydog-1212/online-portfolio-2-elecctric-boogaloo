@@ -6,35 +6,46 @@ body{
     }
   #logo{
    text-align: center;
-    left:0;
-    Background-color:goldenrod;
-    font-size:23px;
+   color:black;
+    right:0px;
+    top:0px;
+    Background-color:rgb(255, 223, 113);
+    font-size:24px;
     font-family: fantasy;
-    max-width:15%;
+    width:90px;
+    height:15%;
     position: fixed;
+    padding-bottom: 10px;
+    border: 4px;
+    box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7)
   }
   .nav{
-    background-color:rgb(48, 44, 44);
+    background-color:rgb(56, 53, 53);
+    box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7);
     color:white;
-    border-style: none;
-    text-align: right;
-    max-width: 100%;
+    width: 100%;
     position:fixed;
-    right:0;
-    top: 10px;
-    overflow: hidden;
-    text-align:center;
+    left:0px;
+    top: 0px;
+    font-size:19px;
+    padding-bottom:5px;
     
   }
   .nav :hover{
     background-color:gold;
+    color:black;
+  
   }
   .navbutton {
     background-color: rgb(41, 37, 37);
+    box-shadow: 0 3px 3px rgba(2, 2, 2, 0.6);
     color: white;
     padding: 16px;
     font-size: 19px;
-    border: none;
+    border:none;
+  }
+  .navbutton:hover{
+    border-color: black;
   }
 
   
@@ -43,7 +54,6 @@ body{
   .dropdown {
     
     display: inline-block;
-    font-size: 19;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -52,10 +62,14 @@ body{
     position: fixed;
     background-color: black;
     z-index: 1;
-    font-size: 19px;
+    
+    
   }
   .dropdown-content:hover{
     display:contents;
+    
+
+    
   }
   
   /* Links inside the dropdown */
@@ -64,17 +78,28 @@ body{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: left;
+    background-color: black;
+    font-size: 16px;
   }
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:gold;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
   .wrapper {
-    background-color: rgba(255,255,255,0.5);
-    max-width: 60%;
+    background-color: rgba(255,255,255,0.7);
+    width: 70%;
     margin: 0 auto;
     padding:25px;
     box-sizing: border-box;
     box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7)
   
   }
-  p{ font-size: 20px;
+  p{ font-size: 25px;
 
   }
   h1{
@@ -126,6 +151,8 @@ body{
   }
   .centerImage2{
   width: 60%
+  
+  
   }
 
   
@@ -157,13 +184,8 @@ body{
     }
     a:hover{
     cursor: pointer;
-    color:white;
+    color:gold;
     }
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
