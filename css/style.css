@@ -1,13 +1,13 @@
 body{
     background-color: rgb(159, 173, 201);
-    background-image: url('white-gold-background-vector-1013338.jpg');
+    background-image: url('../images/white-gold-background-vector-1013338.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     }
   #logo{
    text-align: center;
    color:black;
-    right:0px;
+    right:15px;
     top:0px;
     Background-color:rgb(255, 223, 113);
     font-size:24px;
@@ -16,12 +16,13 @@ body{
     height:15%;
     position: fixed;
     padding-bottom: 10px;
-    border: 4px;
+    border-style: solid;
+    border-color: rgba(2, 2, 2, 0.8);
     box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7)
   }
   .nav{
     background-color:rgb(56, 53, 53);
-    box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7);
+    box-shadow: 0 10px 10px rgba(2, 2, 2, 0.7);
     color:white;
     width: 100%;
     position:fixed;
@@ -62,7 +63,7 @@ body{
     position: fixed;
     background-color: black;
     z-index: 1;
-    
+    box-shadow: 0 3px 3px rgba(2, 2, 2, 0.6);
     
   }
   .dropdown-content:hover{
@@ -79,7 +80,7 @@ body{
     text-decoration: none;
     display: block;
     text-align: left;
-    background-color: black;
+    background-color: rgb(41, 37, 37);;
     font-size: 16px;
   }
   /* Change color of dropdown links on hover */
@@ -92,15 +93,17 @@ body{
 }
   .wrapper {
     background-color: rgba(255,255,255,0.7);
-    width: 70%;
+    width: 125vh;
     margin: 0 auto;
     padding:25px;
     box-sizing: border-box;
     box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7)
-  
   }
   p{ font-size: 25px;
 
+  }
+  li{
+    font-size:25px;
   }
   h1{
     text-align: center;
@@ -146,6 +149,9 @@ body{
   .d {
   text-align: justify;
   } 
+  ul.a{
+    list-style-type: square;
+  }
   .centerImage{
   width: 100%;
   }
@@ -186,6 +192,8 @@ body{
     cursor: pointer;
     color:gold;
     }
-
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
 
 
