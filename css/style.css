@@ -23,7 +23,8 @@ body{
     padding-bottom: 10px;
     border-style: solid;
     border-color: rgba(2, 2, 2, 0.8);
-    box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7)
+    box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7);
+    z-index:2;
   }
   .nav{
     background-color:rgb(56, 53, 53);
@@ -99,15 +100,26 @@ body{
 }
   .wrapper {
     display:flex;
-    flex-direction: column;
+    flex-wrap:wrap;
     background-color: rgba(255,255,255,0.7);
-    width:125vh;
+    width:150vh;
     margin: 0 auto;
     padding:25px;
     box-sizing: border-box;
     box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7)
   }
-
+  .box100{
+    width:100%;
+  }
+  .box50{
+  width:50%;
+  }
+  .box2{
+    width:30%;
+  }
+  .box3{
+    width:10%;
+  }
   p{ font-size: 25px;
 
   }
