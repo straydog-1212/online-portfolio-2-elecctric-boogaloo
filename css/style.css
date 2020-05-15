@@ -3,7 +3,12 @@ body{
     background-image: url('../images/white-gold-background-vector-1013338.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     }
+  .Topbar{
+    display:flex;
+
+  }
   #logo{
    text-align: center;
    color:black;
@@ -13,7 +18,7 @@ body{
     font-size:24px;
     font-family: fantasy;
     width:90px;
-    height:15%;
+    height:20%;
     position: fixed;
     padding-bottom: 10px;
     border-style: solid;
@@ -25,6 +30,7 @@ body{
     box-shadow: 0 10px 10px rgba(2, 2, 2, 0.7);
     color:white;
     width: 100%;
+    z-index:1;
     position:fixed;
     left:0px;
     top: 0px;
@@ -92,13 +98,16 @@ body{
   display: block;
 }
   .wrapper {
+    display:flex;
+    flex-direction: column;
     background-color: rgba(255,255,255,0.7);
-    width: 125vh;
+    width:125vh;
     margin: 0 auto;
     padding:25px;
     box-sizing: border-box;
     box-shadow: 0 15px 15px rgba(2, 2, 2, 0.7)
   }
+
   p{ font-size: 25px;
 
   }
@@ -127,14 +136,7 @@ body{
     text-decoration-color: h
   
   }
-  h3::first-letter{
-    font-size: 200%;
-    color:groove rgb(212,175,55);
-    font-weight: bold;
-    text-decoration: none;
-    font-family: 'galada';
-    
-  }
+  
   .a {
   text-align:center
   }
@@ -149,9 +151,6 @@ body{
   .d {
   text-align: justify;
   } 
-  ul.a{
-    list-style-type: square;
-  }
   .centerImage{
   width: 100%;
   }
@@ -160,27 +159,6 @@ body{
   
   
   }
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     a{
     padding:2rem, 1.5em;
     text-decoration: none;
@@ -192,8 +170,103 @@ body{
     cursor: pointer;
     color:gold;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:640px) {
+     #logo{display:none;
+        }
+      }
+
+
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 100%;
+      max-height: 100%;
+      position: relative;
+      margin: auto;
+    }
+    .text{
+      font-size: 19px;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.4);
+    }
+    
+
+    
+  
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
     @media only screen and (max-width: 300px) {
       .prev, .next,.text {font-size: 11px}
     }
-
-
